@@ -1,0 +1,42 @@
+/* Responsive Design */
+
+@media only screen and (max-width: 987px){ 
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        height: 535px;
+        position: static;
+        flex-direction: column;
+        transition: all 0.9s ease-out;
+    }
+    .right-nav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 72px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+    }
+}
+
+/* 587px search bar*/
+
+@media only screen and (max-width: 597px ){
+    #feedback{
+        width: 102%;
+    }
+    .imgFluid{
+        width: 37%;
+    }
+}
